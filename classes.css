@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+}
+
+body,html{
+  height: 100%;
+  margin: 0;
+  font-size: 12px;
+  color: #626262;
+  background: #f3f3f3;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.hover a{
+  margin-left: 15%;
+}
+
+header .topnav {
+  z-index: 1;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  opacity: 0.8;
+}
+
+.topnav img{
+  width: 197px;
+    height: 60px;
+    background-position: -210px -610px;
+    position: absolute;
+    top: 17%;
+}
+
+.hover a {
+  float: left;
+  display: block;
+  color: #929394;
+  text-align: center;
+  padding: 34px 21px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hover a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.headerbg{
+  background-image: url("imgbg2.jpg");
+  background-size: auto 260px;
+  height: 100%;
+  background-position: center;
+  opacity: 1;
+  background-repeat: no-repeat;
+  margin-top: -23%;
+}
+
+.bg{
+  background-image: url("bg_class.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin-top: -18%;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.downloadbtn1 a span{
+  position: relative;
+  z-index: 1;
+  top: 55%;
+  left: 10%;
+  display: inline-block;
+  width: 348px;
+  color: #cb413e;
+  background: none;
+  height: 66px;
+  margin: 3px;
+  border: 1px solid #cb413e;
+  font-size: 20px;
+  line-height: 66px;
+  font-weight: bold;
+  font-family: 'Marcellus',serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.downloadbtn2 a span{
+  position: relative;
+  z-index: 1;
+  top: 55%;
+  left: 10%;
+  display: inline-block;
+  width: 348px;
+  color: #cb413e;
+  background: none;
+  height: 66px;
+  margin: 3px;
+  border: 1px solid #cb413e;
+  font-size: 20px;
+  line-height: 66px;
+  font-weight: bold;
+  font-family: 'Marcellus',serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.downloadbtn3 a span{
+  position: relative;
+  z-index: 1;
+  top: 55%;
+  left: 10%;
+  display: inline-block;
+  width: 348px;
+  color: #cb413e;
+  background: none;
+  height: 66px;
+  margin: 3px;
+  border: 1px solid #cb413e;
+  font-size: 20px;
+  line-height: 66px;
+  font-weight: bold;
+  font-family: 'Marcellus',serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.downloadbtn4 a span{
+  position: relative;
+  z-index: 1;
+  top: 55%;
+  left: 10%;
+  display: inline-block;
+  width: 348px;
+  color: #cb413e;
+  background: none;
+  height: 66px;
+  margin: 3px;
+  border: 1px solid #cb413e;
+  font-size: 20px;
+  line-height: 66px;
+  font-weight: bold;
+  font-family: 'Marcellus',serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.downloadbtn5 a span{
+  position: relative;
+  z-index: 1;
+  top: 55%;
+  left: 10%;
+  display: inline-block;
+  width: 348px;
+  color: #cb413e;
+  background: none;
+  height: 66px;
+  margin: 3px;
+  border: 1px solid #cb413e;
+  font-size: 20px;
+  line-height: 66px;
+  font-weight: bold;
+  font-family: 'Marcellus',serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.downloadbtn6 a span{
+  position: relative;
+  z-index: 1;
+  top: 55%;
+  left: 10%;
+  display: inline-block;
+  width: 348px;
+  color: #cb413e;
+  background: none;
+  height: 66px;
+  margin: 3px;
+  border: 1px solid #cb413e;
+  font-size: 20px;
+  line-height: 66px;
+  font-weight: bold;
+  font-family: 'Marcellus',serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.downloadbtn1 iframe{
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+}
+
+.downloadbtn2 iframe{
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+}
+
+.downloadbtn3 iframe{
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+}
+
+.downloadbtn4 iframe{
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+}
+
+.downloadbtn5 iframe{
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+}
+
+.downloadbtn6 iframe{
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+}
+
+.close-video a img{
+  z-index: 1;
+  position: absolute;
+  top: -5%;
+  left: 171%;
+}
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img{
+  position: relative;
+  left: 60%;
+}
+
+.mySlides img#imageposition{
+  position: relative;
+  left: 40%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: black;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  font-family: 'Marcellus',serif;
+  font-size: 20px;
+  float: center;
+  z-index: 1;
+}
+
+.numbertext strong{
+  font-size: 60px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  margin-top: -0.1%;
+  font-family: 'Marcellus',serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom: -26%;
+   width: 100%;
+   background-color: #3d444f;
+   color: white;
+   text-align: center;
+   font-family: 'Marcellus',serif;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.footer span{
+  position: absolute;
+  left: 40%;
+}
+
+.footer a{
+  position: absolute;
+  top: 10%;
+  left: 46%;
+  font-family: 'Marcellus',serif;
+  font-size: 18px;
+}
+
+.footer .pegi img{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+
+.footer .kakao img{
+  position: absolute;
+  right: 20%;
+  top: 30%;
+}
+
+.footer .pear img{
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}

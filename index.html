@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Black Desert Online</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="script.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet" type="text/css">
+	
+
+
+</head>
+<body>
+
+	<header>
+		<a href="homepage.html"><img src="logo_intro.png"></a>
+	</header>
+
+	<div class="bg">
+
+		<div class="title">
+			<div class="w3-center w3-animate-top">
+				<img src="title_en.png">
+			</div>
+		</div>
+
+	<p id="text">Fight in the name of Elion with the goddess of battle,
+		<br>	Valkyrie!
+	</p>
+
+		<div class="featherleft">
+			<img class="w3-animate-fading" src="feather_left.png">
+		</div>
+
+		<div class="character">
+			<img class="w3-animate-fading" src="character.png">
+		</div>
+		
+		<div class="featherright">
+			<img class="w3-animate-fading" src="feather_right.png">
+		</div>
+
+		<p class="video-button"><a href="#"><img src="Play-ButtonPNG.png" height="13%" width="10%"></a></p>
+
+		<div class="video-container">
+
+			<iframe width="791" height="489" src="https://www.youtube.com/embed/j8Aj6hy_fLM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+				<p class="close-video">
+					<a href="#">
+						<img src="close-button.png" width="3%" height= "5%">
+					</a>
+				</p>
+		</div>
+
+		<div class="buttonbottom">
+			<div class="w3-center w3-animate-bottom">
+			<a href="homepage.html">
+			<img src="imageedit_2.png">
+			<div class="homebutton">Homepage</div>
+			</a>
+		</div>
+	</div>
+
+		<footer><span>Copyright ⓒ HAO.K Corp. All rights reserved.</span></footer>
+	</div>
+	
+
+
+
+
+<script>
+
+	$('.video-container').hide();
+	$('p.close-video').hide();
+	jQuery(document).ready(function($) {
+    $(function(){
+    
+	  var url = $('.video-container iframe').attr('src');
+      $('p.video-button a img').click(function() {
+	      $('.video-container').show();
+	      $('p.close-video').show();
+		  $('.video-container iframe').attr('src', url);
+
+      });
+
+      $('p.close-video a img').click(function() {
+	      $('.video-container').hide();
+	      $('p.close-video').hide();
+		  $('.video-container iframe').attr('src', '');
+
+      });
+	  
+    });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body,html{
+  height: 100%;
+  margin: 0;
+  font-size: 12px;
+  color: #626262;
+  background: #f3f3f3;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.hover a{
+  margin-left: 15%;
+}
+
+header .topnav {
+	z-index: 1;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  opacity: 0.8;
+}
+
+.topnav img{
+	width: 197px;
+    height: 60px;
+    background-position: -210px -610px;
+    position: absolute;
+    top: 17%;
+}
+
+.hover a {
+  float: left;
+  display: block;
+  color: #929394;
+  text-align: center;
+  padding: 34px 21px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hover a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.headerbg{
+  background-image: url("imgbg2.jpg");
+  background-size: auto 260px;
+  height: 100%;
+  background-position: center;
+  opacity: 1;
+  background-repeat: no-repeat;
+  margin-top: -23%;
+}
+
+.main{
+  margin-top: -14.4%;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.main h3{
+  position: relative;
+  color: #333;
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border-bottom: 1px solid #adbeca;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.termtext{
+    font-size: 15px;
+    color: #626262;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.4;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #3d444f;
+   color: white;
+   text-align: center;
+   font-family: 'Marcellus',serif;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.footer a{
+  position: absolute;
+  top: 10%;
+  left: 46%;
+  font-family: 'Marcellus',serif;
+  font-size: 18px;
+}
+
+.footer .pegi img{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+
+.footer .kakao img{
+  position: absolute;
+  right: 20%;
+  top: 30%;
+}
+
+.footer .pear img{
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
